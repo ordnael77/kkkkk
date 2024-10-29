@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine&Séries - Página Inicial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho do Site -->
+    <header>
+        <h1>leflix</h1>
+        <p>Encontre os melhores filmes de graça!</p>
+        <!-- Barra de Pesquisa -->
+        <input type="text" id="searchInput" placeholder="Buscar filmes e séries..." onkeyup="searchMovies()">
+    </header>
+
+    <!-- Barra de Navegação -->
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="categorias.html">Categorias</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <div class="container">
+        <h2>Últimos Lançamentos</h2>
+        <div class="movie-list" id="movieList">
+            <!-- Card do Filme 1 -->
+            <div class="movie-item">
+                <img src="https://play-lh.googleusercontent.com/560-H8NVZRHk00g3RltRun4IGB-Ndl0I0iKy33D7EQ0cRRwH78-c46s90lZ1ho_F1so=w240-h480-rw" alt="Poster do Filme 1">
+                <h3>Titanic</h3>
+                <p>Aventura, Ação</p>
+                <p>1997</p>
+            </div>
+            <!-- Card do Filme 2 -->
+            <div class="movie-item">
+                <img src="https://images-americanas.b2w.io/produtos/7461800204/imagens/dvd-u-corra-primeira-edicao/7461800204_1_large.jpg" alt="Poster do Filme 2">
+                <h3>Corra</h3>
+                <p>Drama, Suspense</p>
+                <p>2017</p>
+            </div>
+            <!-- Card do Filme 3 -->
+            <div class="movie-item">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirI5QtVB-dBRLOO8XefqkYhASOEQVDOqfBG6LwLTJ8s7d62BZES1p4ojogw5NJDYNXhl5Pjurm8asCntnI5t4-J_PIe2xerV-uGyYouDZLrR6id0cJYdYnVs0GOnqDRrV8kzJHk2XIZg8/s1600/Vingadores-Ultimato.jpg" alt="Poster do Série 1">
+                <h3>Vingadores Ultimato</h3>
+                <p>açao</p>
+                <p>2019</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Leflix. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
